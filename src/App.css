@@ -3,8 +3,10 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  position:absolute;
+  height: 10em;
   pointer-events: none;
+  margin-bottom: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,18 +16,129 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #bd6da5;
+  height: 10em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-top: 2em;
 }
 
-.App-link {
-  color: #61dafb;
+
+.Title {
+  color: rgb(36, 13, 18);
+  font-family: 'Lucida Handwriting', serif;
+  font-size: 5em;
+  margin-top: 3em;
+  position:absolute;
+}
+
+.Welcome {
+  width: 10em;
+  margin-left: 7em;
+  top: 8em;
+  height: 10em;
+
+}
+
+.Mission {
+  width: 15em;
+  margin-left: 5em;
+  top: 18em;
+  height: 20em;
+
+}
+
+.OurCats {
+  width: 15em;
+  margin-left: 5em;
+  top: 28em;
+  height: 20em;
+}
+
+.CatGallery {
+  height: 50em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 2em;
+  position: relative;
+  overflow: hidden;
+  top: 50em;
+}
+
+ .Momo {
+  position: absolute;
+  left: 10em;
+  
+}
+
+.MomoName {
+  position: absolute;
+  left: 13em;
+  top:27em;
+  font-family: 'Lucida Handwriting', serif;
+}
+
+.HenryName {
+  position: absolute;
+  left:30em;
+  bottom:13em;
+  font-family: 'Lucida Handwriting', serif;
+}
+
+.InkaName {
+  position: absolute;
+  right:13em;
+  top:26em;
+  font-family: 'Lucida Handwriting', serif;
+}
+
+
+.Henry {
+  position: absolute;
+  left: 25em;
+  top: 20em;
+
+}
+
+.Inka {
+  position: absolute;
+  left: 37em;
+}
+
+.ClickMomo {
+  position: absolute;
+  left: 30em;
+  bottom:22em;
+  font-family: 'Lucida Handwriting', serif;
+  font-size: 50%;
+  transform: rotate(40deg); 
+}
+
+.ClickHenry {
+  position: absolute;
+  right:58em;
+  bottom:44em;
+  font-family: 'Lucida Handwriting', serif;
+  font-size: 50%;
+  transform: rotate(58deg); 
+}
+
+.ClickInka {
+  position: absolute;
+  right: 40em;
+  bottom:20em;
+  font-family: 'Lucida Handwriting', serif;
+  font-size: 50%;
+  transform: rotate(70deg); 
 }
 
 @keyframes App-logo-spin {

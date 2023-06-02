@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import CurvedPokotajTitle from './components/curvedPokotajTitle/curvedPokotajTitle';
+import momo from './catPhotos/momo.png';
+import henry2 from './catPhotos/henry2.png';
+import inka from './catPhotos/inka.png';
+import links from './links';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img className="App-logo" src='./pokotajLogo.png'/>
+        <div className="Title"><CurvedPokotajTitle/></div>
       </header>
+      <body>
+        <h1 className='Welcome'>Witamy na stronie stowarzyszenia pomocy kotom Pokotaj</h1>
+        <h1 className='Mission'>Naszą misją jest kompleksowa pomoc bezdomnym kotom na terenie Poznania i okolic</h1>
+        <h1 className='OurCats'> Poznaj nasze koty </h1>
+        <div className='CatGallery'>
+        <p className='MomoName'>Momo</p>
+        <p className='ClickMomo'>kliknij na mnie!</p>
+        <a href={links.momo_link} target="_blank" rel="noreferrer"><img src={momo} className="Momo" alt="logo" /></a>
+        <p className='HenryName'>Henry</p>
+        <p className='ClickHenry'>kliknij na mnie!</p>
+        <a href={links.henry_link} target="_blank" rel="noreferrer"><img src={henry2} className="Henry"/></a>
+        <p className='InkaName'>Inka</p>
+        <p className='ClickInka'>kliknij na mnie!</p>
+        <a href={links.inka_link} target="_blank" rel="noreferrer"><img src={inka} className="Inka"/></a>
+        </div>
+      </body>
+      
     </div>
   );
 }
