@@ -60,7 +60,7 @@
 }
 
 .CatGallery {
-  height: 50em;
+  height: 80em;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -74,12 +74,6 @@
   top: 50em;
 }
 
- .Momo {
-  position: absolute;
-  left: 10em;
-  
-}
-
 .MomoName {
   position: absolute;
   left: 13em;
@@ -90,7 +84,7 @@
 .HenryName {
   position: absolute;
   left:30em;
-  bottom:13em;
+  top:34em;
   font-family: 'Lucida Handwriting', serif;
 }
 
@@ -99,6 +93,19 @@
   right:13em;
   top:26em;
   font-family: 'Lucida Handwriting', serif;
+}
+
+.PikotkaName {
+  position: absolute;
+  top:43em;
+  font-family: 'Lucida Handwriting', serif;
+}
+
+.Momo {
+  position: absolute;
+  left: 10em;
+  top: 25em;
+  
 }
 
 
@@ -112,21 +119,28 @@
 .Inka {
   position: absolute;
   left: 37em;
+  top: 25em;
+}
+
+.Pikotka {
+  position: absolute;
+  right: 25em;
+  top:40em;
 }
 
 .ClickMomo {
   position: absolute;
-  left: 30em;
-  bottom:22em;
+  left: 39em;
+  top:63em;
   font-family: 'Lucida Handwriting', serif;
   font-size: 50%;
-  transform: rotate(40deg); 
+  transform: rotate(33deg); 
 }
 
 .ClickHenry {
   position: absolute;
   right:58em;
-  bottom:44em;
+  top:53em;
   font-family: 'Lucida Handwriting', serif;
   font-size: 50%;
   transform: rotate(58deg); 
@@ -135,10 +149,19 @@
 .ClickInka {
   position: absolute;
   right: 40em;
-  bottom:20em;
+  bottom:80em;
   font-family: 'Lucida Handwriting', serif;
   font-size: 50%;
   transform: rotate(70deg); 
+}
+
+.ClickPikotka {
+  position: absolute;
+  right: 55em;
+  bottom:55em;
+  font-family: 'Lucida Handwriting', serif;
+  font-size: 50%;
+  transform: rotate(90deg); 
 }
 
 @keyframes App-logo-spin {

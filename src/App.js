@@ -3,6 +3,7 @@ import CurvedPokotajTitle from './components/curvedPokotajTitle/curvedPokotajTit
 import momo from './catPhotos/momo.png';
 import henry2 from './catPhotos/henry2.png';
 import inka from './catPhotos/inka.png';
+import pikotka from './catPhotos/pikotka.png';
 import links from './links';
 
 
@@ -27,6 +28,9 @@ function App() {
         <p className='InkaName'>Inka</p>
         <p className='ClickInka'>kliknij na mnie!</p>
         <a href={links.inka_link} target="_blank" rel="noreferrer"><img src={inka} className="Inka"/></a>
+        <p className='PikotkaName'>Pikotka</p>
+        <p className='ClickPikotka'>kliknij na mnie!</p>
+        <a href={links.pikotka_link} target="_blank" rel="noreferrer"><img src={pikotka} className="Pikotka"/></a>
         </div>
       </body>
       
