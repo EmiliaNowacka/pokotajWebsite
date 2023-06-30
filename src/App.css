@@ -1,4 +1,5 @@
 .App {
+  position:absolute;
   text-align: center;
 }
 
@@ -16,6 +17,9 @@
 }
 
 .App-header {
+  position:absolute;
+  left: 32em;
+  text-align: center;
   background-color: #bd6da5;
   height: 10em;
   display: flex;
@@ -34,134 +38,229 @@
   font-size: 5em;
   margin-top: 3em;
   position:absolute;
+  display: flex;
 }
 
 .Welcome {
-  width: 10em;
-  margin-left: 7em;
+  position:absolute;
+  width: 15em;
   top: 8em;
   height: 10em;
-
+  margin-left: 5em;
+  flex-direction: column;
 }
 
 .Mission {
+  position:absolute;
   width: 15em;
   margin-left: 5em;
   top: 18em;
   height: 20em;
+  flex-direction: column;
 
 }
 
 .OurCats {
+  position:absolute;
   width: 15em;
   margin-left: 5em;
   top: 28em;
   height: 20em;
+  flex-direction: column;
 }
 
 .CatGallery {
-  height: 80em;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 50em;
+  width: 50em;
+  margin-left: 10em;
   font-size: calc(10px + 2vmin);
   color: white;
   margin-top: 2em;
-  position: relative;
   overflow: hidden;
-  top: 50em;
+  top: 80em;
+  position: relative;
+  border:5px solid black;
+}
+
+.Try {
+  border:5px solid black;
+  position: fixed;
+  top: 10em;
+  margin-left:-5em;
+  height: 20em;
+  width: 20em;
+}
+
+.Within {
+  border:5px solid black;
+  position: sticky;
+  margin-left:35px;
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.Within2 {
+  border:5px solid black;
+  position: sticky;
+  margin-left:35px;
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.MomoContainer {
+  border:5px solid black;
+  position: absolute;
+  height:15em;
+  width:15em;
+  margin-top:5em;
 }
 
 .MomoName {
   position: absolute;
-  left: 13em;
-  top:27em;
   font-family: 'Lucida Handwriting', serif;
-}
-
-.HenryName {
-  position: absolute;
-  left:30em;
-  top:34em;
-  font-family: 'Lucida Handwriting', serif;
-}
-
-.InkaName {
-  position: absolute;
-  right:13em;
-  top:26em;
-  font-family: 'Lucida Handwriting', serif;
-}
-
-.PikotkaName {
-  position: absolute;
-  top:43em;
-  font-family: 'Lucida Handwriting', serif;
+  font-size: 75%;
+  left:5em;
+  top:4em;
 }
 
 .Momo {
-  position: absolute;
-  left: 10em;
-  top: 25em;
-  
-}
-
-
-.Henry {
-  position: absolute;
-  left: 25em;
-  top: 20em;
-
-}
-
-.Inka {
-  position: absolute;
-  left: 37em;
-  top: 25em;
-}
-
-.Pikotka {
-  position: absolute;
-  right: 25em;
-  top:40em;
+  position: flex;
+  width: 100%;
+  height: auto;
 }
 
 .ClickMomo {
   position: absolute;
-  left: 39em;
-  top:63em;
   font-family: 'Lucida Handwriting', serif;
   font-size: 50%;
-  transform: rotate(33deg); 
+  transform: rotate(28deg); 
+  left: 17em;
+  top:13em;
+}
+
+
+.HenryContainer {
+  border:5px solid black;
+  position: absolute;
+  width: 10em;
+  height: 20em;
+  left: 20em;
+}
+
+.HenryName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  left:3em;
+  top:10em;
 }
 
 .ClickHenry {
   position: absolute;
-  right:58em;
-  top:53em;
   font-family: 'Lucida Handwriting', serif;
   font-size: 50%;
   transform: rotate(58deg); 
+  left:10em;
+  top:10em;
 }
+
+.Henry {
+  position: flex;
+  width: 100%;
+  height: auto;
+}
+
+
+.InkaContainer {
+  border:5px solid black;
+  position: absolute;
+  width: 15em;
+  height: 15em;
+  left: 34em;
+  margin-top: 5em;
+}
+
+.InkaName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  left:10em;
+}
+
+.Inka {
+  position: flex;
+  width: 100%;
+  height: auto;
+}
+
 
 .ClickInka {
   position: absolute;
-  right: 40em;
-  bottom:80em;
   font-family: 'Lucida Handwriting', serif;
   font-size: 50%;
   transform: rotate(70deg); 
+  top:23em;
+  left:4em;
+}
+
+.PikotkaContainer {
+  border:5px solid black;
+  position: absolute;
+  width: 10em;
+  height: 20em;
+  top: 25em;
+  left: 20em;
+}
+
+.PikotkaName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  top:13em;
+  left:2em;
+}
+
+.Pikotka {
+  position: flex;
+  width: 130%;
+  height: auto;
 }
 
 .ClickPikotka {
   position: absolute;
-  right: 55em;
-  bottom:55em;
   font-family: 'Lucida Handwriting', serif;
   font-size: 50%;
-  transform: rotate(90deg); 
+  transform: rotate(-30deg); 
+  top: 14em;
+  left:1em;
+}
+
+.Questionaries {
+  border:5px solid black;
+  position: relative;
+  width: 15em;
+  height: 10em;
+  top:35em;
+  margin-top: 1em;
+  margin-left:5em;
+
+}
+
+.QuestionaryAdoption {
+  position: absolute;
+  font-size: 50%;
+  font-family: serif;
+  text-decoration: none;
+  top: 5em;
+  right: 10em;
+}
+
+.QuestionaryTempHome {
+  position: absolute;
+  font-size: 50%;
+  font-family: serif;
+  text-decoration: none;
+  top: 10em;
+  right: 7em;
 }
 
 @keyframes App-logo-spin {
