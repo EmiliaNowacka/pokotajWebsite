@@ -6,6 +6,13 @@ import inka from './catPhotos/inka.png';
 import pikotka from './catPhotos/pikotka.png';
 import ciastek from './catPhotos/ciastek.png';
 import gofer from './catPhotos/gofer.png';
+import trinity from './catPhotos/trinity.png';
+import valka from './catPhotos/valka.png';
+import arwena from './catPhotos/arwena.png';
+import yoda from './catPhotos/yoda.png';
+import miso from './catPhotos/miso.png';
+import leo from './catPhotos/leo.png';
+import yennefer from './catPhotos/yennefer.png';
 import links from './links';
 
 
@@ -52,6 +59,34 @@ function App() {
           <div className='GoferContainer'>
             <p className='GoferName'>Gofer</p>
             <a><img src={gofer} className="Gofer"/></a>
+          </div>
+          <div className='TrinityContainer'>
+            <p className='TrinityName'>Trinity</p>
+            <a><img src={trinity} className="Trinity"/></a>
+          </div>
+          <div className='ValkaContainer'>
+            <p className='ValkaName'>Valka</p>
+            <a><img src={valka} className="Valka"/></a>
+          </div>
+          <div className='ArwenaContainer'>
+            <p className='ArwenaName'>Arwena</p>
+            <a><img src={arwena} className="Arwena"/></a>
+          </div>
+          <div className='YodaContainer'>
+            <p className='YodaName'>Yoda</p>
+            <a><img src={yoda} className="Yoda"/></a>
+          </div>
+          <div className='MisoContainer'>
+            <p className='MisoName'>Miso</p>
+            <a><img src={miso} className="Miso"/></a>
+          </div>
+          <div className='LeoContainer'>
+            <p className='LeoName'>Leo</p>
+            <a><img src={leo} className="Leo"/></a>
+          </div>
+          <div className='YenneferContainer'>
+            <p className='YenneferName'>Yennefer</p>
+            <a><img src={yennefer} className="Yennefer"/></a>
           </div>
         </div>
         <div className='Try'>

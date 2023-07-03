@@ -235,7 +235,7 @@
 }
 
 .TreatedCatGallery {
-  height: 50em;
+  height: 100em;
   width: 50em;
   margin-left: 7em;
   font-size: calc(10px + 2vmin);
@@ -252,7 +252,7 @@
   width: 10em;
   height: 20em;
   left: 2em;
-  bottom: 30em;
+  top: 1em;
 }
 
 .CiastekName {
@@ -271,23 +271,189 @@
 .GoferContainer {
   position: absolute;
   width: 10em;
-  height: 10em;
-  left: 15em;
-  bottom: 34em;
+  height: 20em;
+  left: 17em;
+  top: 1em;
+
 }
 
 .GoferName {
   position: absolute;
   font-family: 'Lucida Handwriting', serif;
-  bottom: 8em;
-  left:5em;
+  bottom: 13em;
+  left:4em;
 }
 
 .Gofer {
   position: flex;
+  width: 100%;
+  height: auto;
+}
+
+.TrinityContainer {
+  position: absolute;
+  width: 10em;
+  height: 20em;
+  left: 32em;
+  top: 1em;
+
+}
+
+.TrinityName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  bottom: 12em;
+  left:5em;
+}
+
+.Trinity {
+  position: flex;
   width: 130%;
   height: auto;
 }
+
+.ValkaContainer {
+  position: absolute;
+  width: 10em;
+  height: 20em;
+  left: 15em;
+  top: 25em;
+}
+
+.ValkaName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  bottom: 16em;
+  left:4em;
+}
+
+.Valka {
+  position: flex;
+  width: 130%;
+  height: auto;
+}
+
+.ArwenaContainer {
+  position: absolute;
+  width: 20em;
+  height: 10em;
+  left: 29em;
+  top: 25em;
+}
+
+.ArwenaName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  bottom: 6em;
+  left:4em;
+}
+
+.Arwena {
+  position: flex;
+  width: 100%;
+  height: auto;
+}
+
+.YodaContainer {
+  position: absolute;
+  width: 17em;
+  height: 10em;
+  left: 1em;
+  top: 31em;
+}
+
+.YodaName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  bottom: 11em;
+  left:6em;
+}
+
+.Yoda {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.MisoContainer {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  left: 6em;
+  top: 47em;
+}
+
+.MisoName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  bottom: 11em;
+  left:6em;
+}
+
+.Miso {
+  position: absolute;
+  width: 300%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.LeoContainer {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  left: 20em;
+  top: 47em;
+}
+
+.LeoName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  bottom: 11em;
+  left:6em;
+}
+
+.Leo {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.YenneferContainer {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  right: 3em;
+  top: 47em;
+}
+
+.YenneferName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  bottom: 13em;
+  right:5em;
+}
+
+.Yennefer {
+  position: absolute;
+  width: 130%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 
 .Questionaries {
