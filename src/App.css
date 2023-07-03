@@ -61,29 +61,34 @@
 }
 
 .OurCats {
-  position:absolute;
+  position:relative;
   width: 15em;
   margin-left: 5em;
   top: 28em;
-  height: 20em;
+  height: 5em;
   flex-direction: column;
 }
 
-.CatGallery {
+.AdoptionCatGallery {
   height: 50em;
   width: 50em;
-  margin-left: 10em;
+  margin-left: 7em;
   font-size: calc(10px + 2vmin);
   color: white;
   margin-top: 2em;
   overflow: hidden;
-  top: 80em;
+  top: 70em;
   position: relative;
-  border:5px solid black;
+  
+}
+
+.ForAdoption {
+  margin-left: 8em;
+  width: 10em;
+
 }
 
 .Try {
-  border:5px solid black;
   position: fixed;
   top: 10em;
   margin-left:-5em;
@@ -92,7 +97,6 @@
 }
 
 .Within {
-  border:5px solid black;
   position: sticky;
   margin-left:35px;
   margin-top: 20px;
@@ -101,7 +105,6 @@
 }
 
 .Within2 {
-  border:5px solid black;
   position: sticky;
   margin-left:35px;
   margin-top: 20px;
@@ -110,7 +113,6 @@
 }
 
 .MomoContainer {
-  border:5px solid black;
   position: absolute;
   height:15em;
   width:15em;
@@ -142,7 +144,6 @@
 
 
 .HenryContainer {
-  border:5px solid black;
   position: absolute;
   width: 10em;
   height: 20em;
@@ -173,12 +174,12 @@
 
 
 .InkaContainer {
-  border:5px solid black;
   position: absolute;
   width: 15em;
   height: 15em;
   left: 34em;
   margin-top: 5em;
+ 
 }
 
 .InkaName {
@@ -204,11 +205,10 @@
 }
 
 .PikotkaContainer {
-  border:5px solid black;
   position: absolute;
   width: 10em;
   height: 20em;
-  top: 25em;
+  top: 15em;
   left: 20em;
 }
 
@@ -234,8 +234,63 @@
   left:1em;
 }
 
-.Questionaries {
+.TreatedCatGallery {
+  height: 50em;
+  width: 50em;
+  margin-left: 7em;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 2em;
+  overflow: hidden;
+  top: 70em;
+  position: relative;
   border:5px solid black;
+}
+
+.CiastekContainer {
+  position: absolute;
+  width: 10em;
+  height: 20em;
+  left: 2em;
+  bottom: 30em;
+}
+
+.CiastekName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  bottom: 11em;
+  left:3em;
+}
+
+.Ciastek {
+  position: flex;
+  width: 130%;
+  height: auto;
+}
+
+.GoferContainer {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  left: 15em;
+  bottom: 34em;
+}
+
+.GoferName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  bottom: 8em;
+  left:5em;
+}
+
+.Gofer {
+  position: flex;
+  width: 130%;
+  height: auto;
+}
+
+
+.Questionaries {
   position: relative;
   width: 15em;
   height: 10em;
@@ -262,6 +317,8 @@
   top: 10em;
   right: 7em;
 }
+
+
 
 @keyframes App-logo-spin {
   from {

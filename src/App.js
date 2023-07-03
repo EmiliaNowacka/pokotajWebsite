@@ -4,6 +4,8 @@ import momo from './catPhotos/momo.png';
 import henry2 from './catPhotos/henry2.png';
 import inka from './catPhotos/inka.png';
 import pikotka from './catPhotos/pikotka.png';
+import ciastek from './catPhotos/ciastek.png';
+import gofer from './catPhotos/gofer.png';
 import links from './links';
 
 
@@ -18,7 +20,8 @@ function App() {
         <h1 className='Welcome'>Witamy na stronie stowarzyszenia pomocy kotom Pokotaj</h1>
         <h1 className='Mission'>Naszą misją jest kompleksowa pomoc bezdomnym kotom na terenie Poznania i okolic</h1>
         <h1 className='OurCats'> Poznaj nasze koty </h1>
-        <div className='CatGallery'>
+        <div className='AdoptionCatGallery'>
+        <h2 className='ForAdoption'> Czekają na adopcję</h2>
           <div className='MomoContainer'>
             <p className='MomoName'>Momo</p>
             <p className='ClickMomo'>kliknij na mnie!</p>
@@ -40,6 +43,17 @@ function App() {
             <a href={links.pikotka_link} target="_blank" rel="noreferrer"><img src={pikotka} className="Pikotka"/></a>
           </div>
         </div>
+        <div className='TreatedCatGallery'>
+        <h2>W trakcie leczenia</h2>
+        <div className='CiastekContainer'>
+            <p className='CiastekName'>Ciastek</p>
+            <a><img src={ciastek} className="Ciastek"/></a>
+          </div>
+          <div className='GoferContainer'>
+            <p className='GoferName'>Gofer</p>
+            <a><img src={gofer} className="Gofer"/></a>
+          </div>
+        </div>
         <div className='Try'>
           <div className='Within'></div>
           <div className='Within2'></div>
@@ -56,3 +70,5 @@ function App() {
 }
 
 export default App;
+
+//border:5px solid black;

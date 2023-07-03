@@ -20,3 +20,10 @@ h1 {
   font-family: 'Palatino', serif;
   font-size: 5em;
 }
+
+h2 {
+  position:relative;  
+  color: rgb(36, 13, 18);
+  font-family: 'Palatino', serif;
+  font-size: 2em;
+}
