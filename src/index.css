@@ -15,15 +15,15 @@ code {
 }
 
 h1 {
-  position:absolute;  
+  position:relative;  
   color: rgb(36, 13, 18);
   font-family: 'Palatino', serif;
-  font-size: 5em;
+  font-size: 3vw;
 }
 
 h2 {
   position:relative;  
   color: rgb(36, 13, 18);
   font-family: 'Palatino', serif;
-  font-size: 2em;
+  font-size: 3vw;
 }

@@ -1,13 +1,18 @@
 .App {
-  position:absolute;
+  position:relative;
   text-align: center;
+  width: auto;
+  height: auto;
 }
 
 .App-logo {
   position:absolute;
-  height: 10em;
   pointer-events: none;
   margin-bottom: 0;
+  position: flex;
+  width: 80%;
+  height: auto;
+  left: 2em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -17,18 +22,14 @@
 }
 
 .App-header {
-  position:absolute;
-  left: 32em;
-  text-align: center;
-  background-color: #bd6da5;
-  height: 10em;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  margin-top: 2em;
+  height: 40em;
+  width: 35em;
+  margin-left: 35%;
+  margin-top: 5em;
+  overflow: hidden;
+  top: 15em;
+  position: relative;
 }
 
 
@@ -36,49 +37,61 @@
   color: rgb(36, 13, 18);
   font-family: 'Lucida Handwriting', serif;
   font-size: 5em;
-  margin-top: 3em;
-  position:absolute;
+  margin-top: 4em;
+  position:relative;
   display: flex;
 }
 
 .Welcome {
-  position:absolute;
-  width: 15em;
-  top: 8em;
-  height: 10em;
-  margin-left: 5em;
   flex-direction: column;
+  height: 3em;
+  width: 25em;
+  margin-left: 4em;
+  margin-top: 5em;
+  overflow: hidden;
+  top: 15em;
+  position: relative;
+}
+@media only screen and (max-width: 600px) {
+  .Welcome {
+    width:100%;
+  }
 }
 
 .Mission {
-  position:absolute;
-  width: 15em;
-  margin-left: 5em;
-  top: 18em;
-  height: 20em;
   flex-direction: column;
-
+  height: 3em;
+  width: 25em;
+  margin-left: 4em;
+  margin-top: 5em;
+  overflow: hidden;
+  top: 20em;
+  position: relative;
 }
 
 .OurCats {
-  position:relative;
-  width: 15em;
-  margin-left: 5em;
-  top: 28em;
-  height: 5em;
   flex-direction: column;
+  height: 2em;
+  width: 25em;
+  margin-left: 4em;
+  margin-top: 5em;
+  overflow: hidden;
+  top: 25em;
+  position: relative;
 }
 
 .AdoptionCatGallery {
+  flex-direction: column;
   height: 50em;
   width: 50em;
   margin-left: 7em;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin-top: 2em;
+  margin-top: 5em;
   overflow: hidden;
   top: 70em;
   position: relative;
+  border: dotted 5px black;
   
 }
 
@@ -117,6 +130,7 @@
   height:15em;
   width:15em;
   margin-top:5em;
+  outline: none;
 }
 
 .MomoName {
@@ -148,6 +162,7 @@
   width: 10em;
   height: 20em;
   left: 20em;
+  outline: none;
 }
 
 .HenryName {
@@ -179,6 +194,7 @@
   height: 15em;
   left: 34em;
   margin-top: 5em;
+  outline: none;
  
 }
 
@@ -210,6 +226,7 @@
   height: 20em;
   top: 15em;
   left: 20em;
+  outline: none;
 }
 
 .PikotkaName {
@@ -235,7 +252,7 @@
 }
 
 .TreatedCatGallery {
-  height: 100em;
+  height: 80em;
   width: 50em;
   margin-left: 7em;
   font-size: calc(10px + 2vmin);
@@ -253,6 +270,7 @@
   height: 20em;
   left: 2em;
   top: 1em;
+  outline: none;
 }
 
 .CiastekName {
@@ -274,7 +292,7 @@
   height: 20em;
   left: 17em;
   top: 1em;
-
+  outline: none;
 }
 
 .GoferName {
@@ -296,7 +314,7 @@
   height: 20em;
   left: 32em;
   top: 1em;
-
+  outline: none;
 }
 
 .TrinityName {
@@ -318,6 +336,7 @@
   height: 20em;
   left: 15em;
   top: 25em;
+  outline: none;
 }
 
 .ValkaName {
@@ -339,6 +358,7 @@
   height: 10em;
   left: 29em;
   top: 25em;
+  outline: none;
 }
 
 .ArwenaName {
@@ -360,6 +380,7 @@
   height: 10em;
   left: 1em;
   top: 31em;
+  outline: none;
 }
 
 .YodaName {
@@ -383,7 +404,8 @@
   width: 10em;
   height: 10em;
   left: 6em;
-  top: 47em;
+  bottom: 23em;
+  outline: none;
 }
 
 .MisoName {
@@ -408,7 +430,8 @@
   width: 10em;
   height: 10em;
   left: 20em;
-  top: 47em;
+  bottom: 20em;
+  outline: none;
 }
 
 .LeoName {
@@ -433,7 +456,8 @@
   width: 10em;
   height: 10em;
   right: 3em;
-  top: 47em;
+  bottom: 23em;
+  outline: none;
 }
 
 .YenneferName {
@@ -453,35 +477,87 @@
   transform: translate(-50%, -50%);
 }
 
+.BibulContainer {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  left: 3em;
+  bottom: 8em;
+  outline: none;
+}
 
+.BibulName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  bottom: 8em;
+  right:5em;
+}
+
+.Bibul {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.TeddyContainer {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  left: 20em;
+  bottom: 3em;
+  outline: none;
+}
+
+.TeddyName {
+  position: absolute;
+  font-family: 'Lucida Handwriting', serif;
+  bottom: 9em;
+  right:6em;
+}
+
+.Teddy {
+  position: absolute;
+  width: 200%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
 
 
 .Questionaries {
-  position: relative;
-  width: 15em;
+  flex-direction: column;
   height: 10em;
-  top:35em;
-  margin-top: 1em;
-  margin-left:5em;
-
+  width: 25em;
+  margin-left: 4em;
+  margin-top: 10em;
+  overflow: hidden;
+  top: 35em;
+  position: relative;
+  border: solid 5px black;
 }
 
 .QuestionaryAdoption {
   position: absolute;
-  font-size: 50%;
+  font-size: 100%;
   font-family: serif;
   text-decoration: none;
-  top: 5em;
-  right: 10em;
+  top: 3em;
+  right: 8em;
 }
 
 .QuestionaryTempHome {
   position: absolute;
-  font-size: 50%;
+  font-size: 100%;
   font-family: serif;
   text-decoration: none;
-  top: 10em;
-  right: 7em;
+  top: 7em;
+  right: 4em;
 }
 
 

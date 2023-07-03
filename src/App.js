@@ -6,13 +6,15 @@ import inka from './catPhotos/inka.png';
 import pikotka from './catPhotos/pikotka.png';
 import ciastek from './catPhotos/ciastek.png';
 import gofer from './catPhotos/gofer.png';
-import trinity from './catPhotos/trinity.png';
+import trinity from './catPhotos/trinity.png';  
 import valka from './catPhotos/valka.png';
 import arwena from './catPhotos/arwena.png';
 import yoda from './catPhotos/yoda.png';
 import miso from './catPhotos/miso.png';
 import leo from './catPhotos/leo.png';
 import yennefer from './catPhotos/yennefer.png';
+import bibul from './catPhotos/bibul.png';
+import teddy from './catPhotos/teddy.png';
 import links from './links';
 
 
@@ -26,7 +28,7 @@ function App() {
       <body>
         <h1 className='Welcome'>Witamy na stronie stowarzyszenia pomocy kotom Pokotaj</h1>
         <h1 className='Mission'>Naszą misją jest kompleksowa pomoc bezdomnym kotom na terenie Poznania i okolic</h1>
-        <h1 className='OurCats'> Poznaj nasze koty </h1>
+        <h1 className='OurCats'> Poznajcie nasze koty </h1>
         <div className='AdoptionCatGallery'>
         <h2 className='ForAdoption'> Czekają na adopcję</h2>
           <div className='MomoContainer'>
@@ -88,12 +90,20 @@ function App() {
             <p className='YenneferName'>Yennefer</p>
             <a><img src={yennefer} className="Yennefer"/></a>
           </div>
+          <div className='BibulContainer'>
+            <p className='BibulName'>Bibul</p>
+            <a><img src={bibul} className="Bibul"/></a>
+          </div>
+          <div className='TeddyContainer'>
+            <p className='TeddyName'>Teddy</p>
+            <a><img src={teddy} className="Teddy"/></a>
+          </div>
         </div>
         <div className='Try'>
           <div className='Within'></div>
           <div className='Within2'></div>
         </div>
-        <h1 className='Questionaries'>Zainteresowany?
+        <h1 className='Questionaries'>Zainteresowani?
         <a href={links.adoption_questionare} target="_blank" rel="noreferrer" className='QuestionaryAdoption'> Ankieta na ADOPCJĘ</a>
         <a href={links.temp_home_quiestionare} target="_blank" rel="noreferrer" className='QuestionaryTempHome'> A może dasz kotu dom tymczasowy? </a>
         </h1>
